@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(227, 238, 186);
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 250%
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 250%
+}
+.Theke{
+    align-items: flex-start;
+    
+}
+.Bildtheke{
+    display: flex;
+    margin-left: 25vw;
+    width: 50%;
+    height: 50%;
+}
+p{
+    font-size: 250%;
+}
+
+.Anfahrtt{
+    display: flex;
+    height: 300px;
+    padding: 30px 100px;
+    width: 700px;
+    gap: 1000px;
+}
+.half-width{
+    gap: 50vw;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  @media (max-width: 700px){
+    .Anfahrtt{
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+    }
+
+    .half-width{
+        width: unset;
+    }
+  }
