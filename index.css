@@ -67,8 +67,11 @@ ul {
   @media (max-width: 700px){
     .Anfahrtt{
         flex-direction: column;
-        align-items: center;
         height: unset;
+        padding: unset;
+        width: auto;
+        gap: unset;
+
     }
 
     .half-width{
