@@ -45,9 +45,30 @@ body{
     text-align: center;
     width: fit-content;
     margin-left: 5vw;
+    margin-right: 5vw;
     float: left;
 }
 a{
     text-decoration: underline;
     color: white;
+}
+h5{
+    margin-left: 60vw;
+}
+.Sendenknopf{
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+.Tischnummer{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    border-radius: 20px;
+}
+.Bestellung3{
+    border-radius: 10px;
+    border: 2px solid black;
 }
